@@ -1,0 +1,77 @@
+/* Reset các thiết lập mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.intro {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+    font-size: 1.8rem;
+    color: #4CAF50;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.hobbies {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies h3 {
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+
+.hobbies ul {
+    list-style-type: none;
+}
+
+.hobbies ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
